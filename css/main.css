@@ -63,3 +63,60 @@ header>.navigation{
     font-size:18px;
     color:rgb(56,58,59);
 }
+
+/*--------------------------------------------------
+                 banner styles
+----------------------------------------------------*/
+.banner{
+    margin:30px 0;
+}
+.banner .grid-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.grid-container .grid-cell-left{
+    display:flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content:center;
+    color:rgb(56,58,59);
+}
+.grid-container .grid-cell-left>h1{
+    font-size:42px;
+    font-weight:700;
+}
+.grid-container .grid-cell-left>p{
+    font-size:16px;
+    margin:30px 0;
+    word-spacing:1px;
+    letter-spacing:1px;
+}
+.grid-container .grid-cell-left>.btn{
+    padding:12px 25px;
+    background-color:rgb(226,46,109);
+    border-radius:25px;
+    display:inline-block;
+    color:rgb(255,255,255);
+    text-transform:capitalize;
+}
+.grid-container .grid-cell-left>.btn>.fas{
+    text-indent:8px;
+    transition:transform .2s ease-in-out;
+}
+
+.grid-container .grid-cell-left>.btn:hover .fas{
+    transform:translateX(8px);
+}
+.grid-container .grid-cell-right{
+    background-image:url('../images/Circle\ design.svg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.grid-container .grid-cell-right img{
+    width: 474px;px;
+    height:474px;
+}
