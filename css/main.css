@@ -33,6 +33,14 @@ a{
     max-width:1200px;
     margin:0 auto;
 }
+.section-title{
+    font-size:28px;
+    text-align:center;
+    text-transform:capitalize;
+    margin-bottom:40px;
+    color:rgb(56,58,59);
+
+}
 
 /*--------------------------------------------------
                  header styles
@@ -138,4 +146,57 @@ header>.navigation{
 .company-inner img{
     width:80px;
     height:80px;
+}
+
+/*--------------------------------------------------
+                    collections 
+----------------------------------------------------*/
+.collection{
+    margin:60px 0;
+    position:relative;
+    
+}
+.collection>.container{
+    width:1140px;
+    margin:0 auto;
+}
+.collection-card{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:25px;
+    justify-content:center;
+}
+.collection-card-item{
+    padding:20px 20px;
+    box-shadow:0 0 30px rgb(209, 206, 206);
+    border-radius:10px;
+
+}
+.collection-card-item .card-photo img{
+     width:100%;
+}
+.collection-card-item p{
+    color:rgb(56,58,59);
+    font-size:14px;
+}
+.collection-card-item .card-info>.card-title{
+    font-size:22px;
+    color:rgb(56,58,59);
+    text-transform:capitalize;
+    margin:15px 0px;
+    color:rgb(23,28,26);
+}
+.collection-card-item>.card-info>.dollar-sign{
+    margin:10px 0;
+}
+.collection-card-item>.card-info i{
+    color:rgb(242,137,39);
+}
+.collection-card .btn{
+    text-transform:capitalize;
+    color:rgb(226,46,109);
+    position:absolute;
+    right:112px;
+    bottom:-60px;
+    font-size:15px;
 }
