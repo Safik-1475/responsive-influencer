@@ -117,6 +117,25 @@ header>.navigation{
 
 }
 .grid-container .grid-cell-right img{
-    width: 474px;px;
+    width: 474px;
     height:474px;
+}
+
+/*--------------------------------------------------
+                    companies
+----------------------------------------------------*/
+.company{
+    margin:60px 0;
+}
+.company-inner{
+     display:flex;
+     justify-content:space-evenly;
+     align-items:center;
+    border-top:2px solid rgb(230,233,234);
+    border-bottom:2px solid rgb(230,233,234);
+    padding:20px 0;
+}
+.company-inner img{
+    width:80px;
+    height:80px;
 }
