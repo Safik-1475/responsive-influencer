@@ -15,4 +15,51 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight:400;
     box-sizing:border-box;
+    line-height:1.5;
+    font-size:15px;
+    outline:none;
+}
+img{
+    width:100%;
+    vertical-align:middle;
+}
+ul{
+    margin:0;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+/*--------------------------------------------------
+                 header styles
+----------------------------------------------------*/
+header>.navigation{
+    display:flex;
+    min-height:25vh;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.navigation .menu{
+    display:flex;
+}
+.navigation>.logo-brand>a{
+    font-size:30px;
+    font-weight:500;
+    color:rgb(56,58,59);
+    text-transform:capitalize;
+}
+.navigation .menu>li{
+    list-style:none;
+    margin:0 10px;
+}
+.navigation .menu>li>a{
+    padding:12px 10px;
+    text-transform:capitalize;
+    font-size:18px;
+    color:rgb(56,58,59);
 }
