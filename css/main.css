@@ -152,7 +152,7 @@ header>.navigation{
                     collections 
 ----------------------------------------------------*/
 .collection{
-    margin:60px 0;
+    margin:80px 0;
     position:relative;
     
 }
@@ -179,6 +179,9 @@ header>.navigation{
     color:rgb(56,58,59);
     font-size:14px;
 }
+.collection-card-item .card-info .dollar-sign{
+    font-size:20px;
+}
 .collection-card-item .card-info>.card-title{
     font-size:22px;
     color:rgb(56,58,59);
@@ -200,3 +203,100 @@ header>.navigation{
     bottom:-60px;
     font-size:15px;
 }
+
+
+/*--------------------------------------------------
+                    feedback styles 
+----------------------------------------------------*/
+.feedback{
+    background-image:url('../images/feedback/testimonials-bg.jpg');
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-color:rgba(0,0,0,0.6);
+    padding:60px 0px;
+    background-blend-mode:overlay;
+    background-attachment: fixed;
+}
+.feedback .section-title{
+    color:rgb(255,255,255);
+}
+.feedback .row{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+.feedback .row .col-left,
+.feedback .row .col-right{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.feedback .col-left .photos img,
+.feedback .col-right .photos img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-top:-60px;
+    margin-right:20px;
+}
+.feedback .col-left .feed-info p,
+.feedback .col-right .feed-info p{
+    font-size:15px;
+    line-height:26px;
+    color:rgb(255,255,255);
+}
+.feedback .col-left .feed-info h3,
+.feedback .col-right .feed-info h3{
+    font-size:22px;
+    text-transform:uppercase;
+    margin:6px 0;
+    color:rgb(255,255,255)
+}
+.feedback .col-left .feed-info span,
+.feedback .col-right .feed-info span{
+    text-transform:capitalize;
+    color:rgb(226,46,109);
+}
+/*--------------------------------------------------
+                    footer styles 
+----------------------------------------------------*/
+.footer{
+    background-color:rgb(10,8,38);
+    padding:40px 0px;
+}
+.footer .footer-inner{
+    width:300px;
+    margin:0 auto;
+    text-align:center;
+    color:rgb(255,255,255);
+}
+.footer .footer-inner h3{
+    letter-spacing:1px;
+    font-weight:600;
+}
+.footer .footer-inner p{
+    margin:15px 0px;
+    color:rgb(207,213,222);
+    font-size:14px;
+    line-height:26px;
+}
+
+.footer .footer-inner .social-links a{
+    margin:0px 6px;
+    background-color:rgb(56,58,59);
+    border-radius:25px;
+    padding:8px;
+    width:15px;
+    height:15px;
+    font-size:15px;
+    line-height:15px;
+    display:inline-block;   
+    color:rgb(255,255,255);
+    transition:background-color .2s ease-in-out;
+}
+.footer .footer-inner .social-links a:hover{
+   background-color:rgb(226,46,109);
+}
+
+
